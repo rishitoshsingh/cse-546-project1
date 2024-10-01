@@ -1,0 +1,9 @@
+name: cloud-aws
+channels:
+  - defaults
+dependencies:
+  - pip
+  - flask
+  - pandas
+  - fsspec
+  - s3fs
