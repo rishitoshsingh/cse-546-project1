@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Byte-compiled / optimized files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Other binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.out
+*.class
+*.jar
+
+# Backup files
+*~ 
+*.bak
+*.tmp
+*.swp

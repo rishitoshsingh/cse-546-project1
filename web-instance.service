@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance for a web-instance (Project 2 Part 1)
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/cse-546-project1
+ExecStart=/home/ubuntu/cse-546-project1/start-server.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
